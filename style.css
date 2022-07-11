@@ -37,6 +37,11 @@
 * {
     margin: 0;
 }
+p {
+    color: var(--lgray);
+    font-family: 'Proxima Nova';
+    font-size: 1.5vw;
+}
 html {
     background-color: #272934;
     scroll-behavior: smooth;
@@ -64,7 +69,8 @@ html {
     align-items: center;
 }
 .arch-pfp {
-    width: 15%;
+    width: 5vw;
+    height: auto;
     margin: 0 1vw 0 0;
 }
 .arch-logo {
@@ -72,11 +78,13 @@ html {
     font-family: "Gilmer Heavy";
 }
 .arch-logo1 {
+    font-family: 'Gilmer Heavy';
     font-size: 3vw;
     line-height: 75%;
     color: white;
 }
 .arch-logo2 {
+    font-family: 'Gilmer Heavy';
     font-size: 1.5vw;
     color: var(--azure);
 }
@@ -118,7 +126,7 @@ html {
     z-index: 1;
 }
 .main-image {
-    max-width: 50vw;
+    width: 50vw;
     height: auto;
     border-radius: 1.5vw;
 }
@@ -155,6 +163,7 @@ html {
     border-radius: .75vw;
 }
 .main-addtodiscord {
+    font-family: 'Proxima Nova';
     color: white;
     background-color: var(--azure);
 }
@@ -164,7 +173,7 @@ html {
 }
 .main-line {
     width: 50%;
-    border: 2px solid #3B3E4F;
+    border: .1vw solid #3B3E4F;
 }
 
 /* HIGHLIGHTS */
@@ -206,4 +215,98 @@ html {
     color: white;
     font-family: 'Proxima Nova';
     font-size: 1.5vw;
+}
+
+/* SUPPORT SERVER */
+.support-server {
+    display: inline-flex;
+    flex-direction: row;
+    margin: 0vw 5vw 10vw 5vw;
+    padding-top: 10vw;
+    gap: 5vw;
+    align-items: center;
+}
+.discordlogo {
+    width: 6vw;
+    height: auto;
+    position: absolute;
+    margin-top: -2vw;
+    z-index: 1;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.server-box {
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3B3E4F;
+    border-radius: 1.5vw;
+    padding: 4vw 3vw 3vw 3vw;
+    gap: 1vw;
+}
+.pfp {
+    width: 10vw;
+    height: auto;
+    padding: 1vw;
+    margin: 0;
+    display: block;
+}
+.pfp-circle {
+    border: .1vw solid var(--bolt);
+    border-radius: 50%;
+    color: transparent;
+}
+.server-archimedes {
+    font-family: 'Gilmer Heavy';
+    color: white;
+    font-size: 2.5vw;
+}
+.serverserver-button {
+    background-color: var(--azure);
+    padding: 1vw;
+    border-radius: .75vw;
+}
+.serverjoin-server {
+    color: white;
+}
+
+.server-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.having-issues {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.issues-title {
+    font-family: 'Gilmer Heavy';
+    font-size: 3vw;
+    color: var(--azure);
+}
+
+.server-dm {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.dm-title {
+    font-family: 'Gilmer Heavy';
+    color: var(--azure);
+    font-size: 3vw;
+}
+
+/* FOOTER */
+.footer {
+    margin: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
