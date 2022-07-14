@@ -137,9 +137,11 @@ a {
 }
 .focus-button:hover {
     background-color: var(--bolt);
+    transform: translate(0vw,-0.5vw);
 }
 .navsupport:hover {
     background-color: var(--bolt);
+    transform: translate(0vw,-0.5vw);
 }
 .navsupport:hover p{
     color: white;
@@ -190,27 +192,31 @@ a {
     border-radius: .75vw;
 }
 .main-addtodiscord {
-    font-family: 'Proxima Nova';
-    color: white;
     background-color: var(--azure);
     transition: 1s;
 }
+.main-addtodiscord p {
+    font-family: 'Proxima Nova';
+    color: white;
+}
 .main-addtodiscord:hover {
     background-color: var(--bolt);
-}
-.main-addtodiscord:hover p {
-    background-color: var(--bolt);
+    transform: translate(0vw,-0.5vw);
 }
 .main-learnmore {
     color: var(--bolt);
     background-color: var(--lnavy);
     transition: 1s;
 }
+.main-learnmore p {
+    color: var(--bolt);
+}
 .main-learnmore:hover {
-    background-color: transparent;
+    background-color: var(--bolt);
+    transform: translate(0vw,-0.5vw);
 }
 .main-learnmore:hover p {
-    background-color: transparent;
+    color: white;
 }
 .main-line {
     width: 50%;
@@ -301,6 +307,10 @@ a {
     border: .1vw solid var(--bolt);
     border-radius: 50%;
     color: transparent;
+    transition: 1s;
+}
+.pfp-circle:hover {
+    background-color: var(--bolt);
 }
 .server-archimedes {
     font-family: 'Gilmer Heavy';
@@ -315,6 +325,7 @@ a {
 }
 .serverserver-button:hover {
     background-color: var(--bolt);
+    transform: translate(0vw,-0.5vw);
 }
 .serverjoin-server {
     color: white;
