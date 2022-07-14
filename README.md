@@ -2,7 +2,7 @@
 
 ## A DISCORD BOT
 
-![Archimedes PFP](https://paneersamosa.github.io/archimedes/assets/img/Round%20PFP.svg)
+![Archimedes PFP](https://archimedesmath.github.io/assets/img/Round%20PFP.svg)
 
 ### Practice math with the ease of hitting send.
 
