@@ -117,18 +117,32 @@ a {
     background-color: var(--azure);
     font-family: 'Proxima Nova';
     color: white;
-    padding: .5vw;
+    padding: 1vw;
     border-radius: .75vw;
+    transition: 1s;
+}
+.focus-button p {
+    color: white;
+}
+.navsupport {
+    background-color: transparent;
+    font-family: 'Proxima Nova';
+    color: var(--bolt);
+    padding: 1vw;
+    border-radius: .75vw;
+    transition: 1s;
+}
+.navsupport p {
+    color: var(--bolt);
 }
 .focus-button:hover {
-    animation-name: addtodiscordchange;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
+    background-color: var(--bolt);
 }
-.focus-button:hover p {
-    animation-name: addtodiscordchange;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
+.navsupport:hover {
+    background-color: var(--bolt);
+}
+.navsupport:hover p{
+    color: white;
 }
 
 /* MAIN TEXT */
@@ -179,44 +193,24 @@ a {
     font-family: 'Proxima Nova';
     color: white;
     background-color: var(--azure);
-    animation-name: back;
-    animation-duration: 1s;
-}
-@keyframes addtodiscordchange {
-    from {background-color: var(--azure);}
-    to {background-color: var(--bolt);}
-}
-@keyframes back {
-    from {background-color: var(--bolt);}
-    to {background-color: var(--azure);}
+    transition: 1s;
 }
 .main-addtodiscord:hover {
-    animation-name: addtodiscordchange;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
+    background-color: var(--bolt);
 }
 .main-addtodiscord:hover p {
-    animation-name: addtodiscordchange;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
+    background-color: var(--bolt);
 }
 .main-learnmore {
     color: var(--bolt);
     background-color: var(--lnavy);
-}
-@keyframes learnmorechange {
-    from {background-color: var(--lnavy);}
-    to {background-color: transparent;}
+    transition: 1s;
 }
 .main-learnmore:hover {
-    animation-name: learnmorechange;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
+    background-color: transparent;
 }
 .main-learnmore:hover p {
-    animation-name: learnmorechange;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
+    background-color: transparent;
 }
 .main-line {
     width: 50%;
@@ -317,16 +311,10 @@ a {
     background-color: var(--azure);
     padding: 1vw;
     border-radius: .75vw;
+    transition: 1s;
 }
 .serverserver-button:hover {
-    animation-name: addtodiscordchange;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-}
-.serverserver-button:hover p {
-    animation-name: addtodiscordchange;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
+    background-color: var(--bolt);
 }
 .serverjoin-server {
     color: white;
