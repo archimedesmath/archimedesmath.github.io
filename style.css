@@ -68,7 +68,7 @@ a {
     z-index: -1;
     right: 2.5vw;
     top: 5vw;
-    animation: rotation 75s infinite linear;
+    animation: rotation 125s infinite linear;
 }
 
 @keyframes rotation {
