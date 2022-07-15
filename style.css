@@ -53,12 +53,27 @@ a {
 }
 
 /* RADIAL BG */
-.radial-bg {
+/*.radial-bg {
     background-image: url(assets/img/radial\ lines.svg);
     background-size: 55vw;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: 93% 50%;
+}*/
+
+.bg-spiral {
+    width: 55vw;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+    right: 2.5vw;
+    top: 5vw;
+    animation: rotation 75s infinite linear;
+}
+
+@keyframes rotation {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(359deg);}
 }
 /* ARCHIMEDES NAVBAR */
 .navbar {
